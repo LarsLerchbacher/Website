@@ -1,0 +1,29 @@
+body {
+	background-color: #383737;
+	color: white;
+	font-family: 'AnkaCoderRegular';
+}
+
+h1 {
+	font-family: 'AnkaCoderBold';
+	font-size: 32pt;
+	text-align: center;
+}
+
+a {
+	font-family: 'AnkaCoderRegular';
+	text-decoration: unterline;
+	color: white;
+}
+
+a:hover {
+	font-family: 'AnkaCoderBold';
+	text-decoration: underline;
+	color: white;
+}
+
+.box {
+	margin: 2.5em;
+	border: 2px solid white;
+	padding: 1em;
+}
