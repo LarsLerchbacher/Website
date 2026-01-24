@@ -1,29 +1,58 @@
 body {
-	background-color: #383737;
+	background-color: black;
 	color: white;
-	font-family: 'AnkaCoderRegular';
+	font-family: 'FiraCodeRegular';
+}
+
+::selection {
+	color: black;
+	background-color: white;
 }
 
 h1 {
-	font-family: 'AnkaCoderBold';
+	/*font-family: 'AnkaCoderBold';*/
+	font-family: 'FiraCodeRegular';
 	font-size: 32pt;
 	text-align: center;
 }
 
 a {
-	font-family: 'AnkaCoderRegular';
-	text-decoration: unterline;
-	color: white;
+	font-family: 'FiraCodeRegular';
+	text-decoration: underline;
+	color: #00ff55;
 }
 
 a:hover {
-	font-family: 'AnkaCoderBold';
+	font-family: 'FiraCodeBold';
 	text-decoration: underline;
+	color: #00ff55;
+}
+
+a::selection {
 	color: white;
+	background-color: #00ff55;
+	text-decoration: underline;
+	text-decoration-color: white;
 }
 
 .box {
 	margin: 2.5em;
 	border: 2px solid white;
 	padding: 1em;
+	box-shadow: 5px 5px 1px 1px #ffffff88;
+}
+
+.cursor {
+	animation-name: blink;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
+	white-space: nowrap;
+}
+
+@keyframes blink {
+	0% {background-color: black;}
+	50% {background-color: white;}
+	100% {background-color: white;}
 }
