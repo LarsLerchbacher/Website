@@ -40,6 +40,7 @@ a::selection {
 	border: 2px solid white;
 	padding: 1em;
 	box-shadow: 5px 5px 1px 1px #ffffff88;
+	white-space: pre;
 }
 
 .cursor {
@@ -56,3 +57,5 @@ a::selection {
 	50% {background-color: white;}
 	100% {background-color: white;}
 }
+
+
