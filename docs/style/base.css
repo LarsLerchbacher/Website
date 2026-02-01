@@ -58,4 +58,33 @@ a::selection {
 	100% {background-color: white;}
 }
 
+.green {
+	color: #00ff55;
+}
+
+.orange {
+	color: #f46e2c;
+}
+
+.ls {
+	list-style-type: none;
+	display: flex;
+}
+
+.ls li {
+	margin-right: 2.5%;
+}
+
+.ls li a{
+	display: block;
+}
+
+#ls-box {
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+
+.bar {
+	text-align: center;
+}
 
