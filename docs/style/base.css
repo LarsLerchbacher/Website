@@ -1,7 +1,9 @@
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
 body {
 	background-color: black;
 	color: white;
-	font-family: 'FiraCodeRegular';
+	font-family: 'Fira Code';
 }
 
 ::selection {
@@ -10,20 +12,22 @@ body {
 }
 
 h1 {
-	/*font-family: 'AnkaCoderBold';*/
-	font-family: 'FiraCodeRegular';
+	font-family: 'Fira Code';
 	font-size: 32pt;
 	text-align: center;
 }
 
 a {
-	font-family: 'FiraCodeRegular';
+	font-family: 'Fira Code';
 	text-decoration: underline;
+	transition: width 4s, height 4s;
 	color: #00ff55;
 }
 
 a:hover {
-	font-family: 'FiraCodeBold';
+	font-family: 'Fira Code';
+	font-size: 1.1em;
+	line-height: 1.0em;
 	text-decoration: underline;
 	color: #00ff55;
 }
