@@ -14,7 +14,6 @@ See the `LICENSE` file for details.
 All textual content, including but not limited to:
 - “About me” sections
 - project descriptions
-- written explanations
 
 is licensed under the Creative Commons Attribution-NonCommercial 4.0 International
 License (CC BY-NC 4.0), unless stated otherwise.
