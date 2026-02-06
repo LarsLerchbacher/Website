@@ -26,7 +26,7 @@ a {
 
 a:hover {
 	font-family: 'Fira Code';
-	font-size: 1.1em;
+	transform: scale(1.1);
 	line-height: 1.0em;
 	text-decoration: underline;
 	color: #00ff55;
