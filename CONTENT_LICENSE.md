@@ -1,0 +1,17 @@
+# Content License
+
+Unless otherwise noted, all textual content in this repository is licensed under:
+
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+You are free to:
+- Share — copy and redistribute the material
+- Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+- Attribution — You must give appropriate credit
+- NonCommercial — You may not use the material for commercial purposes
+
+Full license text:
+https://creativecommons.org/licenses/by-nc/4.0/
+
