@@ -4,6 +4,14 @@ body {
 	background-color: black;
 	color: white;
 	font-family: 'Fira Code';
+	width: 100vw;
+	//display: flex;
+	//align-items: center;
+	//flex-wrap: wrap;
+}
+
+body * {
+	flex: 1;
 }
 
 ::selection {
@@ -18,6 +26,7 @@ h1 {
 }
 
 a {
+	display: inline-block;
 	font-family: 'Fira Code';
 	text-decoration: underline;
 	transition: width 4s, height 4s;
@@ -27,7 +36,6 @@ a {
 a:hover {
 	font-family: 'Fira Code';
 	transform: scale(1.1);
-	line-height: 1.0em;
 	text-decoration: underline;
 	color: #00ff55;
 }
@@ -44,7 +52,7 @@ a::selection {
 	border: 2px solid white;
 	padding: 1em;
 	box-shadow: 5px 5px 1px 1px #ffffff88;
-	white-space: pre;
+	white-space: pre-wrap;
 }
 
 .cursor {
@@ -72,15 +80,20 @@ a::selection {
 
 .ls {
 	list-style-type: none;
-	display: flex;
+	white-space: wrap;
+	/*display: flex;
+	flex-wrap: wrap;*/
 }
 
 .ls li {
 	margin-right: 2.5%;
+	margin-top: auto;
+	display: inline-block;
 }
 
 .ls li a{
-	display: block;
+	text-decoration: underline;
+	line-height: 2em;
 }
 
 #ls-box {
