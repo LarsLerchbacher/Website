@@ -26,7 +26,7 @@ a {
 	display: inline-block;
 	font-family: 'Fira Code';
 	text-decoration: underline;
-	transition: width 4s, height 4s;
+	transition: all 0.25s;
 	color: #00ff55;
 }
 
